@@ -1,6 +1,7 @@
 # Logs
 .idea/
-dist-spec/
+/dist-spec
+/dist
 dist/compiler-cache
 logs
 *.log
