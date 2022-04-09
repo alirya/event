@@ -1,6 +1,6 @@
 import Event from "../event";
 import Callable from "@alirya/function/callable";
-import Argument from "../../../function/dist/argument/argument";
+import Argument from "@alirya/function/argument/argument";
 import CallParameters from "./call-parameters";
 
 export default function CallParameter<
