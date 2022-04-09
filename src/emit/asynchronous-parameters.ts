@@ -1,18 +1,16 @@
 import Event from "../event";
 import Callable from "@alirya/function/callable";
-import Config from "../config/config";
 
-export default function Asynchronous<
+export default function AsynchronousParameters<
     Callback extends Callable,
-    ConfigType extends Config
 >(
-    event : Iterable<[Callback, ConfigType]>,
+    event : Event<Callback>,
     ...argument : Parameters<Callback>
 ) : Promise<ReturnType<Callback>[]> {
 
     const promises : Promise<any>[] = [];
 
-    for (const [callback] of event) {
+    for (const callback of event) {
 
         promises.push(
             Promise.resolve(callback(...argument))
