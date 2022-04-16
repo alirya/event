@@ -1,13 +1,13 @@
 {
   "name": "@alirya/event",
-  "version": "0.0.6",
+  "version": "0.2.0",
   "description": "Typescript event",
   "dependencies": {
-    "@alirya/function": "^0.15.0",
-    "@alirya/map": "^0.11.2"
+    "@alirya/function": "^0.16.0",
+    "@alirya/map": "^0.12.0"
   },
   "devDependencies": {
-    "@alirya/array": "^0.26.0"
+    "@alirya/array": "^0.26.1"
   },
   "homepage": "https://github.com/alirya/event",
   "repository": {
