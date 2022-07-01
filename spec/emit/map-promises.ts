@@ -12,7 +12,7 @@ export default function MapPromises(result: number[], ...delays : number[]) : Ma
                 result.push(delay);
             }, delay);
 
-        }))
+        }));
     }
 
     return map;

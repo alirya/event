@@ -1,4 +1,4 @@
-import Callable from "@alirya/function/callable";
+import Callable from '@alirya/function/callable';
 
 export default function FromMap<Callback extends Callable>(map : Map<unknown, Callback>) : Iterable<Callback> {
 
