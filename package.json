@@ -37,6 +37,7 @@
     "ts-toolbelt": "^9.6.0",
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0",
+    "@alirya/promise": "^0.1.0",
     "@alirya/array": "^0.27.0",
     "cpx2": "^4.2.0"
   },
