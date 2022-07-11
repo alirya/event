@@ -1,6 +1,6 @@
 {
   "name": "@alirya/event",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Typescript event",
   "publishConfig": {
     "directory": "dist"
@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "tslib": "^2.3.1",
-    "@alirya/function": "^0.17.0",
-    "@alirya/map": "^0.13.0",
-    "@alirya/set": "^0.9.0"
+    "@alirya/function": "^0.17.1",
+    "@alirya/map": "^0.13.1",
+    "@alirya/set": "^0.9.1"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",
@@ -38,8 +38,8 @@
     "ts-toolbelt": "^9.6.0",
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0",
-    "@alirya/promise": "^0.1.0",
-    "@alirya/array": "^0.27.0",
+    "@alirya/promise": "^0.1.1",
+    "@alirya/array": "^0.27.1",
     "cpx2": "^4.2.0"
   },
   "scripts": {
