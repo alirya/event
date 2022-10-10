@@ -5,10 +5,8 @@ import {Union} from "ts-toolbelt";
 
 export default function Create<
     Container extends Record<any, EventType>,
-    Keys extends PropertyKey[] = PropertyKey[],
->(
-    ...keys : Union.ListOf<keyof Container>
-) : Container & Record<List.UnionOf<Keys>, EventType> {
+    Keys extends Union.ListOf<keyof Container> = Union.ListOf<keyof Container>
+>(...keys: Keys): Container & Record<List.UnionOf<Keys>, EventType> {
 
     const record : Partial<Container> = {};
 
