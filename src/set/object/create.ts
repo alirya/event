@@ -1,5 +1,5 @@
-import CreateSet from "../create";
-import EventType from "../set";
+import CreateSet from '../create.js';
+import EventType from '../set.js';
 import {List} from "ts-toolbelt";
 import {Union} from "ts-toolbelt";
 
