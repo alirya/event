@@ -1,7 +1,8 @@
 import CreateSet from '../create.js';
 import EventType from '../set.js';
-import {List} from "ts-toolbelt";
-import {Union} from "ts-toolbelt";
+
+import {List} from 'ts-toolbelt';
+import {Union} from 'ts-toolbelt';
 
 export default function Create<
     Container extends Record<any, EventType>,
