@@ -1,6 +1,6 @@
-import {ShuffleParameters} from '@alirya/array/shuffle.js';
-import Once, {OnceValue} from '@alirya/set/once.js';
-import Priority, {PriorityValue} from '@alirya/set/priority.js';
+import {ShuffleParameters} from '@axiona/array/shuffle.js';
+import Once, {OnceValue} from '@axiona/set/once.js';
+import Priority, {PriorityValue} from '@axiona/set/priority.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

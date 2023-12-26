@@ -1,5 +1,5 @@
 {
-  "name": "@alirya/event",
+  "name": "@axiona/event",
   "version": "0.3.1",
   "description": "Typescript event",
   "publishConfig": {
@@ -12,16 +12,16 @@
     "cache": false
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/alirya/event",
+  "homepage": "https://github.com/axiona/event",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alirya/event"
+    "url": "https://github.com/axiona/event"
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@alirya/function": "^0.17.1",
-    "@alirya/map": "^0.13.1",
-    "@alirya/set": "^0.9.1"
+    "@axiona/function": "^0.17.1",
+    "@axiona/map": "^0.13.1",
+    "@axiona/set": "^0.9.1"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",
@@ -41,8 +41,8 @@
     "ts-toolbelt": "^9.6.0",
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0",
-    "@alirya/promise": "^0.1.1",
-    "@alirya/array": "^0.27.1",
+    "@axiona/promise": "^0.1.1",
+    "@axiona/array": "^0.27.1",
     "cpx2": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "eslint-plugin-require-extensions": "^0.1.2",

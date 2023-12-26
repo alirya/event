@@ -1,5 +1,5 @@
-import Priority from "@alirya/set/priority.js";
-import Once from "@alirya/set/once.js";
+import Priority from "@axiona/set/priority.js";
+import Once from "@axiona/set/once.js";
 import Set from './set.js';
 
 /**
